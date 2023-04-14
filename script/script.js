@@ -2,7 +2,7 @@
 //탭 제목 클릭 시 관련 탭내용 보이기/나머지 숨기기
 const btn = document.querySelectorAll('.category a')
 const tab = document.querySelectorAll('.tab_content .tab')
-const after = document.querySelector('catergoty a::after')
+const after = document.querySelectorAll('catergoty a::after')
 for(let i of tab){i.style.display='none'}
 tab[0].style.display = 'flex'
 

@@ -31,13 +31,13 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                     display: block;
                     height:400px; width:600px;
                     .span {
-                        background: rgba(2, 2, 2, 0.3); width:600px; height:400px; display: none;
-                        display: none;
+                        background: rgba(2, 2, 2, 0.3); width:600px; height:400px; opacity: 0;
+                        display:block;
                         flex-flow: column wrap;
                         justify-content: center;
                         align-content: center;
                         text-align: center;
-                        transition: all 1s;
+                        transition: all 0.5s;
                         span {display: block; 
                             color:#fff;
                                 line-height: 1.2;
@@ -46,7 +46,7 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                         span:first-child{padding-top: 180px;}
                     }
                 }
-                a:hover .span{display:block;}
+                a:hover .span{opacity: 1;}
             }
             .thum {
                 display: grid;
@@ -58,8 +58,10 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                     line-height: 300px;
                     align-items:center;
                     .span {
-                        background: rgba(2, 2, 2, 0.3); width:200px; height:200px; display: none;
-                        transition: all 1s;
+                        background: rgba(2, 2, 2, 0.3); width:200px; height:200px;
+                        display: block;
+                        opacity: 0;
+                        transition: all 0.5s;
                         span {display: block;
                             color:#fff;
                             line-height: 1.2;
@@ -68,7 +70,7 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                         span:first-child {padding-top: 70px; }
                         }
                     }
-                a:hover div {display:block;}
+                a:hover .span {opacity: 1;}
                 a:nth-child(1) {
                     background: url(../images/6813e0b4f67103a4b2fd930127e9e6a4.jpg) no-repeat center;
                     background-size: 100%;
@@ -116,13 +118,13 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                     display: block;
                     height:400px; width:600px;
                     .span {
-                        background: rgba(2, 2, 2, 0.3); width:600px; height:400px; display: none;
-                        display: none;
+                        background: rgba(2, 2, 2, 0.3); width:600px; height:400px; opacity: 0;
+                        display:block;
                         flex-flow: column wrap;
                         justify-content: center;
                         align-content: center;
                         text-align: center;
-                        transition: all 1s;
+                        transition: all 0.5s;
                         span {display: block; 
                             color:#fff;
                                 line-height: 1.2;
@@ -131,7 +133,7 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                         span:first-child{padding-top: 180px;}
                     }
                 }
-                a:hover .span{display:block;}
+                a:hover .span{opacity: 1;}
             }
             .thum {
                 display: grid;
@@ -143,8 +145,10 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                     line-height: 300px;
                     align-items:center;
                     .span {
-                        background: rgba(2, 2, 2, 0.3); width:200px; height:200px; display: none;
-                        transition: all 1s;
+                        background: rgba(2, 2, 2, 0.3); width:200px; height:200px;
+                        display: block;
+                        opacity: 0;
+                        transition: all 0.5s;
                         span {display: block;
                             color:#fff;
                             line-height: 1.2;
@@ -153,7 +157,7 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                         span:first-child {padding-top: 70px; }
                         }
                     }
-                a:hover div {display:block;}
+                a:hover .span {opacity: 1;}
                 a:nth-child(1) {
                     background: url(../images/ddcb13f1d412cb7380962cb958c5001f.jpg) no-repeat center;
                     background-size: 100%;
@@ -199,13 +203,13 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                     display: block;
                     height:400px; width:600px;
                     .span {
-                        background: rgba(2, 2, 2, 0.3); width:600px; height:400px; display: none;
-                        display: none;
+                        background: rgba(2, 2, 2, 0.3); width:600px; height:400px; opacity: 0;
+                        display:block;
                         flex-flow: column wrap;
                         justify-content: center;
                         align-content: center;
                         text-align: center;
-                        transition: all 1s;
+                        transition: all 0.5s;
                         span {display: block; 
                             color:#fff;
                                 line-height: 1.2;
@@ -214,7 +218,7 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                         span:first-child{padding-top: 180px;}
                     }
                 }
-                a:hover .span{display:block;}
+                a:hover .span{opacity: 1;}
             }
             .thum {
                 display: grid;
@@ -226,8 +230,10 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                     line-height: 300px;
                     align-items:center;
                     .span {
-                        background: rgba(2, 2, 2, 0.3); width:200px; height:200px; display: none;
-                        transition: all 1s;
+                        background: rgba(2, 2, 2, 0.3); width:200px; height:200px;
+                        display: block;
+                        opacity: 0;
+                        transition: all 0.5s;
                         span {display: block;
                             color:#fff;
                             line-height: 1.2;
@@ -236,7 +242,7 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                         span:first-child {padding-top: 70px; }
                         }
                     }
-                a:hover div {display:block;}
+                    a:hover .span {opacity: 1;}
                 a:nth-child(1) {
                     background: url(../images/6813e0b4f67103a4b2fd930127e9e6a4.jpg) no-repeat center;
                     background-size: 100%;
@@ -284,13 +290,13 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                     display: block;
                     height:400px; width:600px;
                     .span {
-                        background: rgba(2, 2, 2, 0.3); width:600px; height:400px; display: none;
-                        display: none;
+                        background: rgba(2, 2, 2, 0.3); width:600px; height:400px; opacity: 0;
+                        display:block;
                         flex-flow: column wrap;
                         justify-content: center;
                         align-content: center;
                         text-align: center;
-                        transition: all 1s;
+                        transition: all 0.5s;
                         span {display: block; 
                             color:#fff;
                                 line-height: 1.2;
@@ -299,7 +305,7 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                         span:first-child{padding-top: 180px;}
                     }
                 }
-                a:hover .span{display:block;}
+                a:hover .span{opacity: 1;}
             }
             .thum {
                 display: grid;
@@ -311,8 +317,10 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                     line-height: 300px;
                     align-items:center;
                     .span {
-                        background: rgba(2, 2, 2, 0.3); width:200px; height:200px; display: none;
-                        transition: all 1s;
+                        background: rgba(2, 2, 2, 0.3); width:200px; height:200px;
+                        display: block;
+                        opacity: 0;
+                        transition: all 0.5s;
                         span {display: block;
                             color:#fff;
                             line-height: 1.2;
@@ -321,7 +329,7 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                         span:first-child {padding-top: 70px; }
                         }
                     }
-                a:hover div {display:block;}
+                    a:hover .span{opacity: 1;}
                 a:nth-child(1) {
                     background: url(../images/ddcb13f1d412cb7380962cb958c5001f.jpg) no-repeat center;
                     background-size: 100%;
@@ -367,13 +375,13 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                     display: block;
                     height:400px; width:600px;
                     .span {
-                        background: rgba(2, 2, 2, 0.3); width:600px; height:400px; display: none;
-                        display: none;
+                        background: rgba(2, 2, 2, 0.3); width:600px; height:400px; opacity: 0;
+                        display:block;
                         flex-flow: column wrap;
                         justify-content: center;
                         align-content: center;
                         text-align: center;
-                        transition: all 1s;
+                        transition: all 0.5s;
                         span {display: block; 
                             color:#fff;
                                 line-height: 1.2;
@@ -382,7 +390,7 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                         span:first-child{padding-top: 180px;}
                     }
                 }
-                a:hover .span{display:block;}
+                a:hover .span{opacity: 1;}
             }
             .thum {
                 display: grid;
@@ -394,8 +402,10 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                     line-height: 300px;
                     align-items:center;
                     .span {
-                        background: rgba(2, 2, 2, 0.3); width:200px; height:200px; display: none;
-                        transition: all 1s;
+                        background: rgba(2, 2, 2, 0.3); width:200px; height:200px;
+                        display: block;
+                        opacity: 0;
+                        transition: all 0.5s;
                         span {display: block;
                             color:#fff;
                             line-height: 1.2;
@@ -404,7 +414,7 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                         span:first-child {padding-top: 70px; }
                         }
                     }
-                a:hover div {display:block;}
+                    a:hover .span {opacity: 1;}
                 a:nth-child(1) {
                     background: url(../images/6813e0b4f67103a4b2fd930127e9e6a4.jpg) no-repeat center;
                     background-size: 100%;
@@ -452,13 +462,13 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                     display: block;
                     height:400px; width:600px;
                     .span {
-                        background: rgba(2, 2, 2, 0.3); width:600px; height:400px; display: none;
-                        display: none;
+                        background: rgba(2, 2, 2, 0.3); width:600px; height:400px; opacity: 0;
+                        display:block;
                         flex-flow: column wrap;
                         justify-content: center;
                         align-content: center;
                         text-align: center;
-                        transition: all 1s;
+                        transition: all 0.5s;
                         span {display: block; 
                             color:#fff;
                                 line-height: 1.2;
@@ -467,7 +477,7 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                         span:first-child{padding-top: 180px;}
                     }
                 }
-                a:hover .span{display:block;}
+                a:hover .span{opacity: 1;}
             }
             .thum {
                 display: grid;
@@ -479,8 +489,10 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                     line-height: 300px;
                     align-items:center;
                     .span {
-                        background: rgba(2, 2, 2, 0.3); width:200px; height:200px; display: none;
-                        transition: all 1s;
+                        background: rgba(2, 2, 2, 0.3); width:200px; height:200px;
+                        display: block;
+                        opacity: 0;
+                        transition: all 0.5s;
                         span {display: block;
                             color:#fff;
                             line-height: 1.2;
@@ -489,7 +501,7 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                         span:first-child {padding-top: 70px; }
                         }
                     }
-                a:hover div {display:block;}
+                    a:hover .span {opacity: 1;}
                 a:nth-child(1) {
                     background: url(../images/ddcb13f1d412cb7380962cb958c5001f.jpg) no-repeat center;
                     background-size: 100%;
@@ -535,13 +547,13 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                     display: block;
                     height:400px; width:600px;
                     .span {
-                        background: rgba(2, 2, 2, 0.3); width:600px; height:400px; display: none;
-                        display: none;
+                        background: rgba(2, 2, 2, 0.3); width:600px; height:400px; opacity: 0;
+                        display:block;
                         flex-flow: column wrap;
                         justify-content: center;
                         align-content: center;
                         text-align: center;
-                        transition: all 1s;
+                        transition: all 0.5s;
                         span {display: block; 
                             color:#fff;
                                 line-height: 1.2;
@@ -550,7 +562,7 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                         span:first-child{padding-top: 180px;}
                     }
                 }
-                a:hover .span{display:block;}
+                a:hover .span{opacity: 1;}
             }
             .thum {
                 display: grid;
@@ -562,8 +574,10 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                     line-height: 300px;
                     align-items:center;
                     .span {
-                        background: rgba(2, 2, 2, 0.3); width:200px; height:200px; display: none;
-                        transition: all 1s;
+                        background: rgba(2, 2, 2, 0.3); width:200px; height:200px;
+                        display: block;
+                        opacity: 0;
+                        transition: all 0.5s;
                         span {display: block;
                             color:#fff;
                             line-height: 1.2;
@@ -572,7 +586,7 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                         span:first-child {padding-top: 70px; }
                         }
                     }
-                a:hover div {display:block;}
+                    a:hover .span {opacity: 1;}
                 a:nth-child(1) {
                     background: url(../images/6813e0b4f67103a4b2fd930127e9e6a4.jpg) no-repeat center;
                     background-size: 100%;
@@ -620,13 +634,13 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                     display: block;
                     height:400px; width:600px;
                     .span {
-                        background: rgba(2, 2, 2, 0.3); width:600px; height:400px; display: none;
-                        display: none;
+                        background: rgba(2, 2, 2, 0.3); width:600px; height:400px; opacity: 0;
+                        display:block;
                         flex-flow: column wrap;
                         justify-content: center;
                         align-content: center;
                         text-align: center;
-                        transition: all 1s;
+                        transition: all 0.5s;
                         span {display: block; 
                             color:#fff;
                                 line-height: 1.2;
@@ -635,7 +649,7 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                         span:first-child{padding-top: 180px;}
                     }
                 }
-                a:hover .span{display:block;}
+                a:hover .span{opacity: 1;}
             }
             .thum {
                 display: grid;
@@ -647,8 +661,10 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                     line-height: 300px;
                     align-items:center;
                     .span {
-                        background: rgba(2, 2, 2, 0.3); width:200px; height:200px; display: none;
-                        transition: all 1s;
+                        background: rgba(2, 2, 2, 0.3); width:200px; height:200px;
+                        display: block;
+                        opacity: 0;
+                        transition: all 0.5s;
                         span {display: block;
                             color:#fff;
                             line-height: 1.2;
@@ -657,7 +673,7 @@ main { width:1200px; margin: 0 auto; margin-top: 200px;
                         span:first-child {padding-top: 70px; }
                         }
                     }
-                a:hover div {display:block;}
+                    a:hover .span {opacity: 1;}
                 a:nth-child(1) {
                     background: url(../images/ddcb13f1d412cb7380962cb958c5001f.jpg) no-repeat center;
                     background-size: 100%;
